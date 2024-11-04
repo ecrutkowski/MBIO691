@@ -80,18 +80,15 @@ To run this project, you'll need the following Python libraries:
 ## Explanation of Figures
 
 Figure 1: Map of Predicted Coral Cover Change
-
 	-This figure visualizes the geographic distribution of predicted coral cover change. Colors range from red (increase) to blue (decrease).
-	-	Interpretation: The map shows widespread declines in tropical coral cover, particularly in regions like the Indo-Pacific and Carribean. 
+	-Interpretation: The map shows widespread declines in tropical coral cover, particularly in regions like the Indo-Pacific and Carribean. 
 
 Figure 2: Coral Cover Change as a Function of SST and pH
-
-	-	This scatter plot highlights the relationship between coral cover decline and changes in SST and pH.
-	-	Interpretation: The plot emphasizes that higher SST increases and lower pH values are often associated with declines in coral cover.
+	-This scatter plot highlights the relationship between coral cover decline and changes in SST and pH.
+	-Interpretation: The plot emphasizes that higher SST increases and lower pH values are often associated with declines in coral cover.
 
 Figure 3: Correlation Matrix of Variables and Coral Cover Change
-
-	-	This heatmap displays Pearson correlation coefficients between coral cover change and various environmental variables.
-	-	Interpretation: PAR (Photosynthetically Available Radiation) shows the highest positive correlation with coral cover change, with a correlation coefficient of 0.59. SST Change (Sea Surface Temperature change) and SST Seasonal Cycle also have notable correlations, with coefficients of approximately -0.54 and -0.57, respectively, indicating a moderate negative relationship with coral cover change (ie higher SST greater coral decline).
+	-This heatmap displays Pearson correlation coefficients between coral cover change and various environmental variables.
+	-Interpretation: PAR (Photosynthetically Available Radiation) shows the highest positive correlation with coral cover change, with a correlation coefficient of 0.59. SST Change (Sea Surface Temperature change) and SST Seasonal Cycle also have notable correlations, with coefficients of approximately -0.54 and -0.57, respectively, indicating a moderate negative relationship with coral cover change (ie higher SST greater coral decline).
 
      
