@@ -61,10 +61,12 @@ To run this project, you'll need the following Python libraries:
       data['pH_change'] = data['pH_2100'] - data['pH_2020'] --> Calculates the changes in SST and pH between two time periods.
      -data['absolute_latitude'] = data['latitude'].abs() --> Converts latitude to its absolute value
   6. For Analysis:
+  7. 
       -Figure 1: Map of Predicted Average Coral Cover Change
         	Groups data by longitude and latitude to calculate the average coral cover change across simulations.
           Plots a map using Cartopy’s Robinson projection, with points colored by the percentage change in coral cover.
 	        A color bar is added to represent the range of changes (centered at 0) with a CVD friendly color map and a caption explaining the plot.
+     
       -Figure 2: Scatter Plot of Coral Cover Change as a Function of SST and pH Changes
           Filters data to include only sites with a decrease in coral cover.
 	        Creates a scatter plot showing coral cover change as a function of SST and pH changes, focusing on declines in coral cover.
